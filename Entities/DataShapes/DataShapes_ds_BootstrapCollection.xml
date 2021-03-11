@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entities build="b243" majorVersion="9" minorVersion="0" modelPersistenceProviderPackage="H2PersistenceProviderPackage" revision="3" schemaVersion="1102" universal="">
   <DataShapes>
-    <DataShape aspect.isExtension="true" baseDataShape="" description="" documentationContent="" homeMashup="" lastModifiedDate="2021-03-08T14:18:46.907Z" name="BootstrapCollectionDataShape" projectName="" tags="">
+    <DataShape aspect.isExtension="true" baseDataShape="" description="" documentationContent="" homeMashup="" lastModifiedDate="2021-03-08T14:18:46.907Z" name="ds_BootstrapCollection" projectName="" tags="">
       <FieldDefinitions>
         <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="bootstrap_class" ordinal="2"/>
         <FieldDefinition aspect.isPrimaryKey="false" baseType="BOOLEAN" description="" name="container_scroll_to_previous_position" ordinal="17"/>
