@@ -3,24 +3,24 @@
   <DataShapes>
     <DataShape aspect.isExtension="true" baseDataShape="" description="" documentationContent="" homeMashup="" lastModifiedDate="2021-03-08T14:18:46.907Z" name="ds_BootstrapCollection" projectName="" tags="">
       <FieldDefinitions>
+        <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="" name="uid" ordinal="0"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="parent_uid" ordinal="1"/>
         <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="bootstrap_class" ordinal="2"/>
-        <FieldDefinition aspect.isPrimaryKey="false" baseType="BOOLEAN" description="" name="container_scroll_to_previous_position" ordinal="17"/>
-        <FieldDefinition aspect.isPrimaryKey="false" baseType="BOOLEAN" description="" name="container_scroll_to_selected" ordinal="16"/>
         <FieldDefinition aspect.isPrimaryKey="false" baseType="NUMBER" description="" name="height" ordinal="3"/>
         <FieldDefinition aspect.isPrimaryKey="false" baseType="BOOLEAN" description="" name="is_mashup" ordinal="4"/>
-        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="mashup_accordion_group" ordinal="15"/>
-        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="mashup_active_background" ordinal="12"/>
-        <FieldDefinition aspect.isPrimaryKey="false" baseType="BOOLEAN" description="" name="mashup_clickable" ordinal="9"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="MASHUPNAME" description="" name="mashup_name" ordinal="5"/>
         <FieldDefinition aspect.isPrimaryKey="false" baseType="INFOTABLE" description="" name="mashup_data" ordinal="6"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="mashup_selection_group" ordinal="7"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="BOOLEAN" description="" name="mashup_selected" ordinal="8"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="BOOLEAN" description="" name="mashup_clickable" ordinal="9"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="mashup_selection_background" ordinal="10"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="mashup_hover_background" ordinal="11"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="mashup_active_background" ordinal="12"/>
         <FieldDefinition aspect.isPrimaryKey="false" baseType="NUMBER" description="" name="mashup_folded_height" ordinal="13"/>
         <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="mashup_folding_class" ordinal="14"/>
-        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="mashup_hover_background" ordinal="11"/>
-        <FieldDefinition aspect.isPrimaryKey="false" baseType="MASHUPNAME" description="" name="mashup_name" ordinal="5"/>
-        <FieldDefinition aspect.isPrimaryKey="false" baseType="BOOLEAN" description="" name="mashup_selected" ordinal="8"/>
-        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="mashup_selection_background" ordinal="10"/>
-        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="mashup_selection_group" ordinal="7"/>
-        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="parent_uid" ordinal="1"/>
-        <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="" name="uid" ordinal="0"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="STRING" description="" name="mashup_accordion_group" ordinal="15"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="BOOLEAN" description="" name="container_scroll_to_selected" ordinal="16"/>
+        <FieldDefinition aspect.isPrimaryKey="false" baseType="BOOLEAN" description="" name="container_scroll_to_previous_position" ordinal="17"/>        
       </FieldDefinitions>
     </DataShape>
   </DataShapes>
