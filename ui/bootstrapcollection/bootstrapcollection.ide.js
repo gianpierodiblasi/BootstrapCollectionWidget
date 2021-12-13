@@ -73,7 +73,7 @@ TW.IDE.Widgets.bootstrapcollection = function () {
           baseType: 'INFOTABLE',
           isEditable: false,
           isBindingTarget: true,
-          description: 'The collection data source (use the Data Shape ds_BootstrapCollection)'
+          description: 'The collection data source (use or duplicate & extend the Data Shape ds_BootstrapCollection)'
         },
         'scrollToSelected': {
           'isVisible': true,
