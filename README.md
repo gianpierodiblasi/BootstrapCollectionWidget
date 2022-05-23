@@ -1,6 +1,8 @@
 # BootstrapCollectionWidget
 An extension to show a Bootstrap style collection.
 
+**This Extension is provided as-is and without warranty or support. It is not part of the PTC product suite and there is no PTC support.**
+
 ## Description
 This extension provides a widget to show a Bootstrap style collection. The collection is described by the ds_BootstrapCollection DataShape (see below); the DataShape structure is mandatory, but it can be extended with additional fields.
 
